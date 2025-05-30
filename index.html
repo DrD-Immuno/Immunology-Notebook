@@ -2,189 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>WB1: Innate and Adaptive Immunity</title>
+  <title>Immunology Notebook - BIO 4650</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f9f9f9;
-      margin: 0;
-      padding: 2rem;
       color: #0b3a4a;
+      padding: 2rem;
     }
-
-    h1, h2 {
+    h1 {
       color: #c64a43;
     }
-
-    section {
-      background-color: #fff;
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      border-left: 6px solid #70acba;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
+    ul {
       margin-top: 1rem;
     }
-
-    th, td {
-      border: 1px solid #ccc;
-      padding: 0.75rem;
-      text-align: left;
+    li {
+      margin-bottom: 1rem;
     }
-
-    th {
-      background-color: #70acba;
-      color: white;
+    a {
+      color: #70acba;
+      text-decoration: none;
+      font-weight: bold;
     }
-
-    input[type="text"] {
-      width: 100%;
-      padding: 0.5rem;
-      box-sizing: border-box;
-    }
-
-    .graph-img {
-      width: 100%;
-      max-width: 500px;
-      display: block;
-      margin-top: 1rem;
+    a:hover {
+      color: #176d85;
     }
   </style>
 </head>
 <body>
-
-  <h1>Workbook 1: Principles of Innate and Adaptive Immunity</h1>
-
-  <section>
-    <h2>Introduction</h2>
-    <p>The immune system recognizes and responds to diverse pathogens using innate and adaptive strategies. This workbook explores key concepts behind pathogen classification, immune activation, and immunologic memory.</p>
-  </section>
-
-  <section>
-    <h2>Pathogens</h2>
-    <p>Complete the table below by identifying key structures, typical location in the host (e.g., intracellular, extracellular, or intravesicular), mechanism of pathogenesis, and provide an example organism for each type.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Pathogen</th>
-          <th>Identifying Structure(s)</th>
-          <th>Location in Host</th>
-          <th>Mechanism of Pathogenesis</th>
-          <th>Example</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Virus</td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., intracellular"></td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., Influenza"></td>
-        </tr>
-        <tr>
-          <td>Bacteria</td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., intra- or extracellular"></td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., Salmonella"></td>
-        </tr>
-        <tr>
-          <td>Fungi</td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., extracellular"></td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., Candida albicans"></td>
-        </tr>
-        <tr>
-          <td>Parasite</td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., intracellular"></td>
-          <td><input type="text"></td>
-          <td><input type="text" placeholder="e.g., Plasmodium falciparum"></td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <section>
-    <h2>Steps of an Immune Response</h2>
-    <p>The steps below are out of order. Please assign a number (1–6) in the input box next to each step to reflect their correct sequence in a typical immune response.</p>
-    <ul>
-      <li><input type="text" style="width: 40px;"> Identify Pathogen – Recognize the pathogen based on its unique characteristics.</li>
-      <li><input type="text" style="width: 40px;"> Signal Infection – Alert and coordinate the immune system to respond.</li>
-      <li><input type="text" style="width: 40px;"> Activate Response – Trigger a tailored immune response.</li>
-      <li><input type="text" style="width: 40px;"> Deploy Effectors – Activate immune effectors (e.g., antibodies, T cells).</li>
-      <li><input type="text" style="width: 40px;"> Clear Infection – Eliminate the pathogen and restore homeostasis.</li>
-      <li><input type="text" style="width: 40px;"> Build Memory – Establish immunologic memory for future encounters.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Innate vs. Adaptive Immunity</h2>
-    <p>Compare the two arms of the immune system by completing the table.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>Innate</th>
-          <th>Adaptive</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Response Time</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Specificity & Diversity</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Response to Repeat Infection</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Inflammatory Inducers</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Receptors</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Immune Cells</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Immunologic Memory</td>
-          <td><input type="text"></td>
-          <td><input type="text"></td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <section>
-    <h2>Primary and Secondary Immune Response</h2>
-    <p>Study the graph below showing the innate and adaptive responses after initial and repeated antigen exposure. Then sketch your own version of the <strong>secondary response</strong> in your notebook and upload a photo to Canvas.</p>
-    <img src="antigen.png" alt="Immune Response Graph" class="graph-img">
-  </section>
-
-  <section>
-    <h2>Conclusion</h2>
-    <p>Summarize what you've learned about how the immune system defends against a wide variety of pathogens and adapts over time.</p>
-    <input type="text" placeholder="Write your response here..." style="width: 100%; padding: 1rem;">
-  </section>
-
+  <h1>Immunology Notebook</h1>
+  <p>Welcome to the Immunology Notebook for BIO 4650. Select a workbook below to begin exploring interactive and printable learning modules.</p>
+  <ul>
+    <li>
+      <a href="WB1_innate_adaptive_updated.html">📘 Workbook 1: Innate and Adaptive Immunity (Interactive HTML)</a>
+    </li>
+    <li>
+      <a href="WB1_innate_adaptive_updated.pdf">📄 Download PDF Version of Workbook 1</a>
+    </li>
+    <li>
+      <a href="antigen.png">🖼️ View Immune Response Graph</a>
+    </li>
+  </ul>
+  <p>More workbooks will be added soon. Stay tuned!</p>
 </body>
 </html>
